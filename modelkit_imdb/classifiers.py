@@ -7,7 +7,6 @@ import tensorflow as tf
 
 class MovieReviewItem(pydantic.BaseModel):
     text: str
-    rating: Optional[float] = None  # could be useful in the future ? but not mandatory
 
 
 class MovieSentimentItem(pydantic.BaseModel):
